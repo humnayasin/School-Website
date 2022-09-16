@@ -1,0 +1,20 @@
+doctype html 
+html 
+    head 
+        title School  
+        block scripts 
+        block style   
+            
+    body 
+        nav#nav
+            ul
+                div#logo
+                    img(src="/static/badge.png", alt="logo")
+                li #[a(href='/')  Home] 
+                li #[a(href='/') About]
+                li #[a(href='/') Campus life]
+                li #[a(href='/contact') Contact us]
+        block content 
+        block footer
+            footer#footer   
+                |Copyright ⓒ  2022 humnayasin All rights  ||  reserved   

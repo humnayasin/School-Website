@@ -1,0 +1,32 @@
+extends layout.pug 
+block scripts
+    script
+         include ../static/index.js
+block style 
+    style
+            include ../static/style.css
+            include ../static/homestyle.css
+block content
+        section#introSection
+            
+            h1 Educative School System
+            p.small Unlock New World OF Education
+        section#OurMission
+            h1.heading Our Mission 
+            div#cards
+                div.card
+                    div.img.img1
+                    h1.heading Academic Excellence
+                    p we are providing best faculty to educate students.Our vision is to develop well rounded, confident and responsible individuals who aspire to achieve their full potential
+                div.card
+                    div.img.img2
+                    h1.heading Prepare Skilled Individuals
+                    p Our goal is to support and nurture the children’s and our own natural desire to be life-long learners. We are committed to the families we serve, providing support and encouragement. 
+                div.card
+                    div.img.img3
+                    h1.heading Learning Environment
+                    p Our Mission is to provide high quality education and childcare in a safe, respectful and inclusive environment that builds a foundation for life-long learning.
+        section#GallerySection
+            h1.heading Gallery
+            div#Gallerybox
+                
